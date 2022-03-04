@@ -63,3 +63,27 @@ else:
 
 n = float(input("Siz son kiriting biz sizga ildizini chiqarib beramiz\n>>>"))
 print(n**(1/2)) if n >= 0 else print("Musbat son kiriting")
+
+#----------
+
+n = int(input('How old are you?>>>'))
+if n <= 7:
+    print("Sizga kirish mumkin emas!")
+elif n <= 65:
+    print("Marxamat!")
+else :
+    print("Sizni yoshingiz juda katta ekan!!!")
+
+#----------
+
+n = int(input("How old are you?>>>"))
+if n <= 7:
+    price = '5000sum'
+elif n <= 65:
+    price ='15000sum'
+else :
+    price = '0sum'
+print(price)
+
+#----------
+
