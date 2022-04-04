@@ -14,11 +14,11 @@ import random as r
 print("Topqirlik o'yini")
 def findnum(x=10):
     pc = r.randint(1,x)
-    marta1 = 0
-    input(f"1dan {x}gacha son o'yladim, topish uchun istalgan tugmani bosing.")
+    marta = 0
+    print(f"1dan {x}gacha son o'yladim, topish uchun istalgan tugmani bosing.")
     
     while True:
-        marta1 += 1
+        marta += 1
         user = int(input("Sonni kiriting>>>"))
         if user < pc:
             print(f"Xato!!! Men o'ylagab sin {user} dan katta!")
@@ -28,17 +28,17 @@ def findnum(x=10):
             break 
 
     print(f"Topdingiz men o'ylagan ron {pc}edi."
-          f"Siz {marta1} urunishda topdingiz.")
-    return marta1
+          f"Siz {marta} urunishda topdingiz.")
+    return marta
 
 def findnum_pc(x=10):
     input("1 dan {x} gach son o'ylab istalgan tugamni bosing.")
     mini = 1
     maxi = x
-    marta2 = 0
+    marta = 0
     
     while True:
-        marta2 += 1
+        marta += 1
         if mini != maxi:
             pc = r.randint(mini,maxi)
         else:
@@ -52,8 +52,8 @@ def findnum_pc(x=10):
             mini = pc + 1
         else:
             break
-    print(f"Topdim!!!\n Men {marta2} urunishda toptim")
-    return marta2
+    print(f"Topdim!!!\n Men {marta} urunishda toptim")
+    return marta
 
 def play(x=10):
     yana = True
@@ -61,13 +61,13 @@ def play(x=10):
         marta_user = findnum(x)
         marta_pc = findnum_pc(x)
         
-        if marta_user < marta_pc:
-            print(f"{findnum(x)}Siz yutdingiz.")
-        elif marta_user > marta_pc:
-            print(f"{findnum_pc(x)}Men yutdim.")
+        if marta_user > marta_pc:
+            print(f"Men {marta_pc} ta xamin bn Yutdim.")
+        elif marta_user < marta_pc:
+            print(f"Siz {marta_user} ta taxmon bn Yutdingiz.")
         else:
             print("DURRANG")
         
         yana = int(input("Yana o'ynaymizmi? ha(1), yo'q(0)"))
 
-print(play())
+play()
