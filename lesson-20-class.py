@@ -7,44 +7,44 @@ Created on Mon Apr  4 10:39:41 2022
 
 # CLASS
 
-# class user:
-#     def __init__(self,nic,fism,emile,tyil):
-#         self.nic = nic
-#         self.fism = fism
-#         self.emile = emile
-#         self.tyil = tyil
+class user:
+    def __init__(self,nic,fism,emile,tyil):
+        self.nic = nic
+        self.fism = fism
+        self.emile = emile
+        self.tyil = tyil
 
-#     def get_info(self):
-#         print(f"Salom, ismim {self.fism.title()}, {self.tyil} yilda tug'ilganman "
-#               f"emile: {self.emile}")
+    def get_info(self):
+        print(f"Salom, ismim {self.fism.title()}, {self.tyil} yilda tug'ilganman "
+              f"emile: {self.emile}")
 
-# user1 = user("vali2002","vali","2002@mail.ru",2002)
-# user1.get_info()
+user1 = user("vali2002","vali","2002@mail.ru",2002)
+user1.get_info()
 
 # =============================================================================
 # 
 # =============================================================================
 
-# class user:
-#     def __init__(self,nic,fism,emile,tyil):
-#         self.nic = nic
-#         self.fism = fism
-#         self.emile = emile
-#         self.tyil = tyil
+class user:
+    def __init__(self,nic,fism,emile,tyil):
+        self.nic = nic
+        self.fism = fism
+        self.emile = emile
+        self.tyil = tyil
         
-#     def get_id(self):
-#         return self.nic
+    def get_id(self):
+        return self.nic
     
-#     def get_username(self):
-#         return self.fism
+    def get_username(self):
+        return self.fism
     
-#     def get_emile(self):
-#         return self.emile
+    def get_emile(self):
+        return self.emile
     
-#     def get_age(self,yil):
-#         return yil - self.tyil
+    def get_age(self,yil):
+        return yil - self.tyil
     
-# user1 = user("vali2002","vali","2002@mail.ru",2002)
+user1 = user("vali2002","vali","2002@mail.ru",2002)
 
 # =============================================================================
 # class va class ichida qo'shimcha kiritish usullari
@@ -92,7 +92,7 @@ class Fan():
         """Fanga yozilgan talabalar hoqida ma'lumot!"""
         return [x.get_info() for x in self.students]
     """bu yerda students dagi xar bir ma'lumotni olib 
-       x ga joylab uni get_info ga berayapti"""
+        x ga joylab uni get_info ga berayapti"""
 """ 
     students = []
     for x in self.students:
@@ -104,9 +104,9 @@ class Fan():
 def see_methods(klass):
     return [method for method in dir(klass) if method.startswith('__') is False]
     """bu klasss yordamida dir() orqali chiqadigan methodlar ro'yxatidagi 
-       __ bilan boshlanadigan ro'yxayni o'chirib biz yozgan methodlarnigina
-       ko'rdatadigan method buni ishlatish uchun >> see_methods(Student) <<<
-       ni ni konsolda yozish bilan chiqaruladi. Bu yerda Student class nomi"""
+        __ bilan boshlanadigan ro'yxayni o'chirib biz yozgan methodlarnigina
+        ko'rdatadigan method buni ishlatish uchun >> see_methods(Student) <<<
+        ni ni konsolda yozish bilan chiqaruladi. Bu yerda Student class nomi"""
        
 matem = Fan("Oliy Matematika")    
 student1 = Student("Ali", "Valiev", 1995)
@@ -118,5 +118,53 @@ matem.add_student(student2)
 matem.add_student(student3)
 
 # =============================================================================
-# dir
+
 # =============================================================================
+
+class Avto:
+    def __init__(self,model,color,kp):
+        self.model = model
+        self.color = color
+        self.kp = kp
+        self.km = 0
+        
+    def get_info(self):
+        return f"model: {self.model}, rangi: {self.color}, karobka: {self.kp}. {self.km}km bosib o'tgan"
+    
+    def set_km(self,new_km):
+        self.km = new_km
+        
+    def update_km(self):
+        self.km += 1000
+        
+avto1 = Avto("BMW", "white", "avto") 
+
+# =============================================================================
+# 
+# =============================================================================
+
+# class avtosalon():
+#     def __init__(self,nomi,manzil):
+#         self.nomi = nomi
+#         self.manzil = manzil
+#         self.avtolar_soni = 0
+#         self.avtos = []
+        
+#     def add_avto(self,avto):
+#         self.avtos.append(avto)
+#         self.avtolar_soni += 1
+    
+#     def get_name(self):
+#         return self.nomi
+    
+#     def get_manzil(self):
+#         return self.manzil
+    
+#     def get_avtos(self):
+#         return [x.get_info() for x in self.avtos]
+    
+# avtosalon = avtosalon("BMW", "German")  
+  
+# avto1 = avtosalon("BMW", "German")
+# avto2 = avtosalon("TOYOTA", "Japan")
+# avto3 = avtosalon("GM", "UZB")
