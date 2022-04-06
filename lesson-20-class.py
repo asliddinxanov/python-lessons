@@ -101,6 +101,13 @@ class Fan():
     
     ni o'rniga ishlatdik"""
     
+def see_methods(klass):
+    return [method for method in dir(klass) if method.startswith('__') is False]
+    """bu klasss yordamida dir() orqali chiqadigan methodlar ro'yxatidagi 
+       __ bilan boshlanadigan ro'yxayni o'chirib biz yozgan methodlarnigina
+       ko'rdatadigan method buni ishlatish uchun >> see_methods(Student) <<<
+       ni ni konsolda yozish bilan chiqaruladi. Bu yerda Student class nomi"""
+       
 matem = Fan("Oliy Matematika")    
 student1 = Student("Ali", "Valiev", 1995)
 student2 = Student("Akmal", "Aliev", 2000)
@@ -110,22 +117,6 @@ matem.add_student(student1)
 matem.add_student(student2)
 matem.add_student(student3)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# =============================================================================
+# dir
+# =============================================================================
