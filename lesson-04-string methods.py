@@ -41,6 +41,16 @@ surname = input("What's your surname? >>>")
 name_surname = f"{name.title()} {surname.title()}"
 print(f"Hello {name_surname}")
 
+#M
+
+name = input("Ismingiz nima? >>>")
+surname = input("Familiyangiz nima? >>>")
+maqsad = input("Nega bu o'qishni tanladingiz? >>>")
+shiyor = input("Hayotdan shioringiz. >>>")
+
+print(f"Salom men {name.upper()} {surname.upper()} bo'laman.\n"
+      f"Maqsadingiz? : {maqsad.capitalize() }"
+      f"Hayotdan shioringiz : {shiyor.title()}")
 
 
 
