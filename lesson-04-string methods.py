@@ -8,15 +8,20 @@ Created on Tue Mar  1 11:51:39 2022
 
 name = "James"
 surname = "Bond"
+name1 = "james"
+surname1 = "bond"
+print(f"{name1.upper()} {surname1.upper()}") #xamasini katta xarfga o'giradi
+print(f"{name.lower()} {surname.lower()}") #xamasini kichkina xarfga o'giradi
 name_surname = f"{name} {surname}"
 print(name_surname.upper())
-
 print(name_surname.lower())
 
-#title() and #capitalize()
+#title() and capitalize()
 
-name_surname = "james bond"
-print(name_surname.title())
+word = "yozilgan xar bitta so'zni bosh xarfni katta xarfga o'girish."
+print(word.title())
+word_2 = "yozilgan gapni bosh xarfini katta xarfga o'girish."
+print(word_2.capitalize())
 
 name_surname = "james bond"
 print(name_surname.capitalize())
