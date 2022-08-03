@@ -47,3 +47,12 @@ print("a =", a, "b =", b, "c =", c)
 name = "Alex"
 old = 30
 runn = name + " " + str(old) + "yoshda" # bu yerda old integer edi, str()metodi bn string ga aylantirdik
+
+# O'zgaruvshini turini aniqlash
+
+name = "Alex"
+old = 30
+print(type(name))
+print(type(old))
+# <calss 'str'> ni qaytaradi
+# <calss 'int"> ni qaytaradi
