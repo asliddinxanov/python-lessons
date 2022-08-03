@@ -15,7 +15,7 @@ print(a[-1])
 
 #.title()
 #.upper()
-#lower()
+#.lower()
 
 print(a[0].upper())
 print(a[1].title())
