@@ -51,7 +51,3 @@ shiyor = input("Hayotdan shioringiz. >>>")
 print(f"Salom men {name.upper()} {surname.upper()} bo'laman.\n"
       f"Maqsadingiz? : {maqsad.capitalize() }"
       f"Hayotdan shioringiz : {shiyor.title()}")
-
-
-
-

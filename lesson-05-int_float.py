@@ -5,6 +5,8 @@ Created on Thu Mar  3 07:53:10 2022
 @author: asliddinxanov
 """
 
+#SONLAR
+
 #int(integer)
 #float(float)
 
@@ -26,9 +28,22 @@ print(year, "year old")
 
 #----------
 
-a = float(input("nter the number>>"))
-b = float(input("nter the number>>"))
+a = float(input("Enter the number>>"))
+b = float(input("Enter the number>>"))
 print(f"{a}+{b} =", a+b)
 print(f"{a}-{b} =", a-b)
 print(f"{a}x{b} =", a*b)
 print(f"{a}/{b} =", a/b)
+
+# SONLAR
+
+# bir necha o'zgarivchiga qiymat berish
+
+a, b, c = 1, 2, 3
+print("a =", a, "b =", b, "c =", c)
+
+# agar integerga stringni qo'shib yozish
+
+name = "Alex"
+old = 30
+runn = name + " " + str(old) + "yoshda" # bu yerda old integer edi, str()metodi bn string ga aylantirdik
