@@ -60,6 +60,3 @@ for coun in sorted(countris):
 print("\nCapitals of the world\n")
 for cap in sorted(countris.values()):
     print(cap.title())
-
-
-

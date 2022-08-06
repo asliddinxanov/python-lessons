@@ -84,6 +84,3 @@ elif n <= 65:
 else :
     price = '0sum'
 print(price)
-
-#----------
-
