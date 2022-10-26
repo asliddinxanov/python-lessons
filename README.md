@@ -6,7 +6,7 @@ What is Python?
 Executive Summary
 Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
 
-## Evolution of Python.
+### Evolution of Python.
 
  -Python was developed by Guido Van Rossum in the late eighties at the ' National Research Institute       for Mathematics and Computer Science, at Netherlands.
 
@@ -38,7 +38,7 @@ Integrated development enviroment (IDE)
 
 - Utilities Provided by IDEs include tools for managing, compiling, deploying and debugging software
 
-## Feature of IDE 
+### Feature of IDE 
 
 - IDE should centralize three key tools nthat form the crux of software development 
 
@@ -48,16 +48,7 @@ Integrated development enviroment (IDE)
 
 - Version control
 
-## Commonly used IDEs
-
--Spyder
--PyCharm
--Jupyter Notebook
--Atom
-
-But in this course we are going to be looking at jupyter notebook; and that is primarily because it is a very good software that has been developed only for data science and python; and it as an interface that is very very appealing and easy to use for beginners.
-
-## Jupyter Notebook
+### Jupyter Notebook
 
 -Web application that allows creation and manipulation of notebook documents called 'notebook',
 
