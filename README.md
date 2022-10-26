@@ -44,22 +44,22 @@ Integrated development enviroment (IDE)
 
 - Syntax and error highlighting 
 
--  Code completion 
+- Code completion 
 
 - Version control
 
 ### Jupyter Notebook
 
--Web application that allows creation and manipulation of notebook documents called 'notebook',
+- Web application that allows creation and manipulation of notebook documents called 'notebook',
 
--Supported across Linux, Mac Os X and windows platforms.
+- Supported across Linux, Mac Os X and windows platforms.
 
--Available as open source version.
+- Available as open source version.
 
--Bundled with Anaconda distribution or can be installed seperately.
+- Bundled with Anaconda distribution or can be installed seperately.
 
--Supports Julia, Python, R and Scala.
+- Supports Julia, Python, R and Scala.
  
--Consists of ordered collection of input and output cells that contain code,text,plots etc.
+- Consists of ordered collection of input and output cells that contain code,text,plots etc.
 
--Allows sharing of code and narrative text through output format likePDF,HTML etc.
+- Allows sharing of code and narrative text through output format likePDF,HTML etc.
