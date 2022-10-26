@@ -30,7 +30,7 @@ Advantages of  using Python
 
 - Combines well with majority of the cloud platform service providers
 
-Integrated development enviroment (IDE)
+### Integrated development enviroment (IDE)
 
 - Software application consisiting of a cohesive unit of tools required for development
 
