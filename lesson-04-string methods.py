@@ -11,6 +11,7 @@ surname = "Bond"
 name1 = "james"
 surname1 = "bond"
 print(f"{name1.upper()} {surname1.upper()}") #xamasini katta xarfga o'giradi
+
 print(f"{name.lower()} {surname.lower()}") #xamasini kichkina xarfga o'giradi
 name_surname = f"{name} {surname}"
 print(name_surname.upper())
@@ -51,3 +52,9 @@ shiyor = input("Hayotdan shioringiz. >>>")
 print(f"Salom men {name.upper()} {surname.upper()} bo'laman.\n"
       f"Maqsadingiz? : {maqsad.capitalize() }"
       f"Hayotdan shioringiz : {shiyor.title()}")
+
+
+
+
+
+
